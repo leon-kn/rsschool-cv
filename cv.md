@@ -1,7 +1,9 @@
 # Knyazev Leontiy
 
 ## Contacts
-leontiy.knyazev@gmail.com
+email: leontiy.knyazev@gmail.com
+rsschool discord nickname: Leon(@leon-kn)
+
 
 ### About me
 I'm here because I like programming and I want to develop in this direction.

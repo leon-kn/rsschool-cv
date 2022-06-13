@@ -7,6 +7,10 @@
 	box-sizing: border-box;
 }
 
+html {
+	scroll-behavior: smooth; 
+ }
+
 body {
 	font-family: Montserrat;
 	min-height: 100vh;
@@ -34,16 +38,17 @@ h1 {
 	font-size: 40px;
 }
 
+
 h2 {
 	font-size: 24px;
 }
 
 p {
-	line-height: 1.8em
+	line-height: 1.5em
 }
 
 .container {
-	max-width: 800px;
+	max-width: 1000px;
 	margin: 0 auto;
 }
 
@@ -61,3 +66,14 @@ p {
 	text-align: center;
 }
 
+.nav-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	list-style: none;
+	align-items: center;
+}
+
+.nav-item {
+
+}

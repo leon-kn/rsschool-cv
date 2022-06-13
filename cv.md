@@ -35,11 +35,11 @@ Hello, World! :)
 
 ### Work experience
 
-coming soon.
+This CV. Other educational projects are coming soon.
 
 ### Education and courses
 
-2013 - 2019
+2013-2019
 	Master's degree of Civil Engineering
 	Ufa State Petroleum Technological University
 2022

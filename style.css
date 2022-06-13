@@ -1,1 +1,63 @@
-Some text
+@font-face {
+	font-family: Montserrat;
+		src: url("assets/fonts/static/Montserrat-Regular.ttf");
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Montserrat;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+header {
+	border: 1px solid red;
+}
+
+main {
+	border: 1px solid red;
+}
+
+footer {
+	border: 1px solid red;
+}
+
+h1 {
+	text-align: center;
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+p {
+	line-height: 1.8em
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.image {
+	display:block;
+	margin: 0 auto;
+	width: 300px;
+	height:300px;
+	border-radius: 15%;
+	border: 15px solid orange;
+}
+
+.profession {
+	font-size: 24px;
+	text-align: center;
+}
+

@@ -45,10 +45,6 @@ h2 {
 	font-size: 24px;
 }
 
-p {
-
-}
-
 .container {
 	max-width: 1000px;
 	margin: 0 auto;
@@ -151,3 +147,34 @@ p {
 	height: 47px;
 	background-color: orange;
  }
+
+.my-project {
+	font-size: 23px;
+	font-weight: 900;
+}
+
+.project-link {
+	text-decoration: none;
+	color: rgb(32, 31, 31);
+	transition: color 0.5s;
+}
+
+.project-link:hover {
+	color: orange;
+ }
+
+ .function {
+	color: rgb(235, 13, 235);
+ }
+
+ .multiply {
+	color: rgb(255, 179, 0);
+ }
+
+ .footer-item {
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	transition: color 0.5s;
+}

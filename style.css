@@ -1,0 +1,180 @@
+@font-face {
+	font-family: Montserrat;
+		src: url("assets/fonts/static/Montserrat-Regular.ttf");
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth; 
+ }
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	font-family: Montserrat;
+	font-size: 18px;
+	line-height: 1.5em
+}
+
+header {
+	background-color: khaki;
+}
+
+main {
+	margin-bottom: auto;
+}
+
+footer {
+	background-color: khaki;
+}
+
+h1 {
+	text-align: center;
+	font-size: 40px;
+}
+
+
+h2 {
+	font-size: 24px;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	min-height: 50px;
+	margin-bottom: 55px;
+}
+
+.container-header {
+	max-width: 1000px;
+	margin: 0 auto;
+	min-height: 50px;
+}
+
+.container-footer {
+	max-width: 1000px;
+	margin: 0 auto;
+	min-height: 50px;
+}
+
+.image {
+	display:block;
+	margin: 0 auto;
+	width: 300px;
+	height:300px;
+	border-radius: 15%;
+	border: 15px solid orange;
+}
+
+.icon {
+	display:block;
+	width: 100px;
+	height: 50px;
+}
+
+.profession {
+	font-size: 24px;
+	text-align: center;
+}
+
+.nav-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	list-style: none;
+	align-items: center;
+}
+
+.nav-item {
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 20px;
+	color: grey;
+	transition: color 0.5s;
+}
+
+.nav-item:hover {
+	color: orange;
+ }
+
+ .list {
+	list-style: none;
+}
+
+.list-item {
+	color: rgba(179, 118, 5, 0.855);
+}
+
+.skills-list {
+	line-height: 45px;
+}
+
+ .section-profile {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+ }
+
+ .section-profile-title:after {
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 150px;
+	background-color: orange;
+	margin-left: -234px;
+	margin-top: 60px;
+ }
+
+ .section-title {
+	margin-bottom: 50px;
+	padding: 10px 0 10px 40px;
+	background-color: rgba(128, 128, 128, 0.346);
+ }
+
+ .section-title:before {
+	position: absolute;
+	content: "";
+	margin-left: -40px;
+	margin-top: -10px;
+	width: 20px;
+	height: 47px;
+	background-color: orange;
+ }
+
+.my-project {
+	font-size: 23px;
+	font-weight: 900;
+}
+
+.project-link {
+	text-decoration: none;
+	color: rgb(32, 31, 31);
+	transition: color 0.5s;
+}
+
+.project-link:hover {
+	color: orange;
+ }
+
+ .function {
+	color: rgb(235, 13, 235);
+ }
+
+ .multiply {
+	color: rgb(255, 179, 0);
+ }
+
+ .footer-item {
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	transition: color 0.5s;
+}
